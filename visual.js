@@ -78,7 +78,7 @@ function getCardData() {
         bank: document.getElementById("inputBank").value.trim() || "default",
         paymentSystem: document.getElementById("inputPaymentSystem").value.trim() || "default",
         number: formatCardNumber() || "XXXX XXXX XXXX XXXX",
-        owner: document.getElementById("inputCardOwner").value.trim() || "Даниил Байков",
+        owner: document.getElementById("inputCardOwner").value.trim().toUpperCase() || "ДАНИИЛ БАЙКОВ",
         date: document.getElementById("inputCardDate").value || "08/26"
     }
     return cardData
