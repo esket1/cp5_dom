@@ -1,0 +1,116 @@
+/* #card {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  border-radius: 19px;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+#card-owner {
+  position: absolute;
+  bottom: -5px;
+  left: 15px;
+}
+#card-number {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#date {
+  position: absolute;
+  bottom: -5px;
+  right: 115px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#chip {
+  position: absolute;
+  top: 54px;
+  left: 15px;
+}
+#card-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  left: 15px;
+  top: 1px;
+}
+
+#mastercard {
+  position: absolute;
+  bottom: -18px;
+  right: 2px;
+}
+#mir {
+  position: absolute;
+  bottom: -25px;
+  right: 4px;
+}
+#visa {
+  position: absolute;
+  bottom: -24px;
+  right: 12px;
+}
+
+#alfa {
+  position: absolute;
+  top: 7px;
+  right: -18px;
+}
+#sber {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+#tbank {
+  position: absolute;
+  top: 5px;
+  right: 2px;
+}
+#vtb {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.alfa-card {
+  background: brown;
+  border: 2px solid black;
+}
+.alfa-card #card-owner,
+.alfa-card #card-number,
+.alfa-card #date,
+.alfa-card #card-text {
+  color: white;
+}
+
+.sber-card {
+  border: 2px solid green;
+  background: greenyellow;
+}
+
+.tbank-card {
+  background: rgb(51,51,51);
+  border: 2px solid gray;
+}
+.tbank-card #card-owner,
+.tbank-card #card-number,
+.tbank-card #date,
+.tbank-card #card-text {
+  color: white;
+}
+
+.vtb-card {
+  background: gray;
+  border: 2px solid black;
+}
+   */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма оплаты</title>
+</head>
+
+<body>
+    <form>
+        <label for="bank">Банк</label>
+        <select name="select-bank" id="bank">
+            <option value="">-</option>
+            <option value="alfa">Альфа Банк</option>
+            <option value="sber">Сбер</option>
+            <option value="tbank">Т-Банк</option>
+            <option value="vtb">ВТБ</option>
+        </select>
+        <br>
+
+        <label for="payment-system">Платежная система</label>
+        <select name="select-payment-system" id="payment-system">
+            <option value="">-</option>
+            <option value="mastercard">Master Card</option>
+            <option value="mir">МИР</option>
+            <option value="visa">Visa</option>
+        </select>
+        <br>
+
+        <label for="card-number">Номер карты</label>
+        <input type="text" name="card-number" id="card-number" maxlength="19" inputmode="numeric" placeholder="Введите 16 цифр" required>
+        <br>
+
+        <label for="card-owner">Владелец карты</label>
+        <input type="text" name="card-owner" id="card-owner" required>
+        <br>
+
+        <label for="card-date">Дата окончания карты</label>
+        <input type="month" name="card-date" id="card-date" required>
+        <br>
+
+        <button type="submit" id="submit">Отправить</button>
+    </form>
+    <br>
+    <div id="container">
+    </div>
+</body>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</html>
