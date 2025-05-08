@@ -11,7 +11,7 @@
     <div class="container">
         <form id="bankForm">
             <label for="bank">Банк</label>
-            <select name="select-bank" id="inputBank">
+            <select name="select-bank" id="inputBank" title="Выберите ваш банк">
                 <option value="">-</option>
                 <option value="alfa">Альфа Банк</option>
                 <option value="sber">Сбер</option>
@@ -22,7 +22,7 @@
             <br>
 
             <label for="payment-system">Платежная система</label>
-            <select name="select-payment-system" id="inputPaymentSystem">
+            <select name="select-payment-system" id="inputPaymentSystem" title="Выберите платежную систему">
                 <option value="">-</option>
                 <option value="mastercard">Master Card</option>
                 <option value="mir">МИР</option>
@@ -33,17 +33,15 @@
 
             <label for="card-number">Номер карты</label>
             <input type="text" name="card-number" id="inputCardNumber" maxlength="19" inputmode="numeric"
-                placeholder="Введите 16 цифр" required>
+                placeholder="Введите 16 цифр" title="Введите номер банковской карты" required>
             <br>
 
             <label for="card-owner">Владелец карты</label>
-            <input type="text" name="card-owner" id="inputCardOwner" required>
+            <input type="text" name="card-owner" id="inputCardOwner" title="Введите имя и фамилию владельца карты" required>
             <br>
 
             <label for="card-number">Дата окончания действия карты</label>
-            <input type="text" name="card-date" id="inputCardDate" placeholder="MM/YY"
-                pattern="(0[1-9]|1[0-2])\/[0-9]{2}" maxlength="5"
-                title="Пожалуйста, введите дату в формате MM/YY (например, 04/23)" required>
+            <input type="text" name="card-date" id="inputCardDate" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" maxlength="5" title="Введите дату в формате MM/YY (например, 04/23)" required>
             <br>
 
             <button type="submit" id="submit" form="bankForm">Подтвердить</button>
