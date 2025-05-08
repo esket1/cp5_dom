@@ -10,7 +10,7 @@
 <body>
     <form>
         <label for="bank">Банк</label>
-        <select name="select-bank" id="bank">
+        <select name="select-bank" id="inputBank">
             <option value="">-</option>
             <option value="alfa">Альфа Банк</option>
             <option value="sber">Сбер</option>
@@ -20,7 +20,7 @@
         <br>
 
         <label for="payment-system">Платежная система</label>
-        <select name="select-payment-system" id="payment-system">
+        <select name="select-payment-system" id="inputPaymentSystem">
             <option value="">-</option>
             <option value="mastercard">Master Card</option>
             <option value="mir">МИР</option>
@@ -29,15 +29,15 @@
         <br>
 
         <label for="card-number">Номер карты</label>
-        <input type="text" name="card-number" id="card-number" maxlength="19" inputmode="numeric" placeholder="Введите 16 цифр" required>
+        <input type="text" name="card-number" id="inputCardNumber" maxlength="19" inputmode="numeric" placeholder="Введите 16 цифр" required>
         <br>
 
         <label for="card-owner">Владелец карты</label>
-        <input type="text" name="card-owner" id="card-owner" required>
+        <input type="text" name="card-owner" id="inputCardOwner" required>
         <br>
 
         <label for="card-date">Дата окончания карты</label>
-        <input type="month" name="card-date" id="card-date" required>
+        <input type="month" name="card-date" id="inputCardDate" required>
         <br>
 
         <button type="submit" id="submit">Отправить</button>

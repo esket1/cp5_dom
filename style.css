@@ -1,4 +1,4 @@
-/* #card {
+#card {
   position: relative;
   width: 320px;
   height: 180px;
@@ -9,12 +9,12 @@
   font-family: Arial, sans-serif;
 }
 
-#card-owner {
+#cardOwner {
   position: absolute;
   bottom: -5px;
   left: 15px;
 }
-#card-number {
+#cardNumber {
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -36,7 +36,7 @@
   top: 54px;
   left: 15px;
 }
-#card-text {
+#cardText {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
@@ -82,35 +82,35 @@
   right: 20px;
 }
 
-.alfa-card {
+.alfaCard {
   background: brown;
   border: 2px solid black;
 }
-.alfa-card #card-owner,
-.alfa-card #card-number,
-.alfa-card #date,
-.alfa-card #card-text {
+.alfaCard #cardOwner,
+.alfaCard #cardNumber,
+.alfaCard #date,
+.alfaCard #cardText {
   color: white;
 }
 
-.sber-card {
+.sberCard {
   border: 2px solid green;
   background: greenyellow;
 }
 
-.tbank-card {
+.tbankCard {
   background: rgb(51,51,51);
   border: 2px solid gray;
 }
-.tbank-card #card-owner,
-.tbank-card #card-number,
-.tbank-card #date,
-.tbank-card #card-text {
+.tbankCard #cardOwner,
+.tbankCard #cardNumber,
+.tbankCard #date,
+.tbankCard #cardText {
   color: white;
 }
 
-.vtb-card {
+.vtbCard {
   background: gray;
   border: 2px solid black;
 }
-   */
+  
