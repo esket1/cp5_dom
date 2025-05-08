@@ -11,6 +11,14 @@ document.getElementById("bankForm").addEventListener("submit", function (e) {
         alert("Введите корректный номер карты")
         return
     }
+    if (document.getElementById("inputBank").value.trim() === "") {
+        alert("Выберите корректный банк")
+        return
+    }
+    if (!document.getElementById("inputPaymentSystem").value.trim() === "") {
+        alert("Выберите корректную платежную систему")
+        return
+    }
     editTable()
     this.reset()
     editVisualCard()
